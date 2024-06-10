@@ -2,4 +2,21 @@
   padding: none;
   margin: none;
   box-sizing: border-box;
+  scrollbar-width: 5px;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background:rgb(0, 0, 0); 
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-button{
+  display: none;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #313131;
 }

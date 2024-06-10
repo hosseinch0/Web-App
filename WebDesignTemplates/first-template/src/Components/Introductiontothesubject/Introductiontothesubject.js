@@ -1,8 +1,7 @@
 import React from "react";
 import './Introductiontothesubject.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import LinkButton from "../LinkButton/LinkButton";
+
 const Introductiontothesubject = ({children}) =>{
     return(
         <container className="container">
@@ -14,7 +13,7 @@ const Introductiontothesubject = ({children}) =>{
                 </div>
             </div>
             <div className="rightcontainer">
-                <Link to="shop"><button className="link">Everything you want is here <FontAwesomeIcon icon={faAngleDoubleRight } size="20px"/></button></Link>    
+                  <LinkButton>here is the best styles for you!</LinkButton> 
             </div>  
         </container>
     );

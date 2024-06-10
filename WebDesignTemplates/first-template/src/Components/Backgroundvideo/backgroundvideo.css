@@ -11,4 +11,5 @@
 }
 .backgroundvideo{
     user-select: none;
+    z-index: -1;
 }

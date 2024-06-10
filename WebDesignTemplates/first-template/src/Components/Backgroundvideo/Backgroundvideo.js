@@ -1,11 +1,10 @@
 import React from "react";
 import './backgroundvideo.css'
 
-var Source = "/fashionvideo.mp4";
-const Backgroundvideo = () =>{
+const Backgroundvideo = ({children}) =>{
     return(
         <video className="video-background" autoPlay playsInline loop muted controlsList="nodownload">
-            <source className="backgroundvideo" src={Source} type="video/mp4"/>
+            <source className="backgroundvideo" src={children} type="video/mp4"/>
           </video>
         );
 };
